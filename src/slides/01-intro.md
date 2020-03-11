@@ -16,6 +16,16 @@ Create presentations using Gatsby & React.
 
 ---
 
+Cash me some code, howboudah?!
+
+```javascript
+let test = 'Hello';
+
+console.log(test);
+```
+
+---
+
 ## Slides are written in Markdown!
 
 Here's the source of the first slide:

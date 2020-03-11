@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
-    date: `July 30, 2018`,
+    name: `Dan Robert`,
+    title: `Intro to WP-CLI`,
+    date: `March 19, 2020`,
   },
   plugins: [
     `gatsby-plugin-layout`,
@@ -19,6 +19,7 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           {
             resolve: `gatsby-remark-images`,
