@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     name: `Dan Robert`,
-    title: `Intro to WP-CLI`,
-    date: `March 19, 2020`,
+    title: `Getting Started with WP-CLI`,
+    date: `April 19, 2020`,
   },
   plugins: [
     `gatsby-plugin-layout`,
