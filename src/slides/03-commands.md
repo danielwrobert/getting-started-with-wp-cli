@@ -40,7 +40,7 @@ $ wp theme list
 
 ---
 
-## Theme Management (continued)
+## Theme Management - Common Commands
 
 ```bash
 $ wp theme install twentysixteen --activate
@@ -65,7 +65,7 @@ $ wp plugin list
 
 ---
 
-## Plugin Management (continued)
+## Plugin Management - Common Commands
 
 ```bash
 $ wp plugin install jetpack --activate
@@ -93,7 +93,7 @@ $ wp post delete $(wp post list --post_type=post --format=ids)
 
 ---
 
-## Content Management (continued)
+## Content Management - Edge-Case Example
 
 ```bash
 # Output all images uploaded in May of 2020 to a CSV file
@@ -147,7 +147,7 @@ $ wp import tmp --authors=create
 
 ---
 
-## Migrations - Exporting your database
+## Migrations - Exporting Your Database
 
 ```bash
 $ wp db export --add-drop-table
@@ -157,7 +157,7 @@ $ wp db export --tables=wp_options,wp_users --add-drop-table
 
 ---
 
-## Migrations - Importing your database
+## Migrations - Importing Your Database
 
 ```bash
 # Reset database
@@ -174,16 +174,6 @@ $ wp search-replace "https://production-site.com" "https://dev-site.test"
 
 # Search again to confirm all production URLs are gone
 $ wp db search "https://production-site.com"
-```
-
----
-
-## Migrations - Exporting your database
-
-```bash
-$ wp db export --add-drop-table
-$ wp db export --add-drop-table --file=mysite20200419.sql
-$ $ wp db export --tables=wp_options,wp_users --add-drop-table
 ```
 
 ---
