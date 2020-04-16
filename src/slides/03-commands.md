@@ -191,7 +191,6 @@ $ wp maintenance-mode deactivate
 
 # Display Maintenance mode status.
 $ wp maintenance-mode status
-Maintenance mode is active.
 
 # Get Maintenance mode status for scripting purpose.
 $ wp maintenance-mode is-active
