@@ -1,6 +1,6 @@
 # Commands
 
-[https://developer.wordpress.org/cli/commands/](https://developer.wordpress.org/cli/commands/)
+https://developer.wordpress.org/cli/commands/
 
 ---
 
@@ -196,7 +196,7 @@ $ wp maintenance-mode status
 $ wp maintenance-mode is-active
 ```
 
-<small>[https://developer.wordpress.org/cli/commands/maintenance-mode/](https://developer.wordpress.org/cli/commands/maintenance-mode/)</small>
+<small>https://developer.wordpress.org/cli/commands/maintenance-mode/</small>
 
 ---
 

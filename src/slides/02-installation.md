@@ -1,6 +1,6 @@
 # Installation
 
-[https://make.wordpress.org/cli/handbook/installing/](https://make.wordpress.org/cli/handbook/installing/)
+https://make.wordpress.org/cli/handbook/installing/
 
 ---
 
