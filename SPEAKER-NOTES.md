@@ -51,3 +51,8 @@ WP-CLI version:	2.4.0
 [Commands | WordPress Developer Resources](https://developer.wordpress.org/cli/commands/)
 
 The full list of commands can be found in the documentation, along with useful examples. I’m just going to cover a handful of common commands that I find handy on a regular basis.
+
+### Post Management
+
+`wp post list`: Display posts based on all arguments supported by
+WP_Query().
