@@ -147,7 +147,44 @@ $ wp import tmp --authors=create
 
 ---
 
-## Migrations
+## Migrations - Exporting your database
+
+```bash
+$ wp db export --add-drop-table
+$ wp db export --add-drop-table --file=mysite20200419.sql
+$ wp db export --tables=wp_options,wp_users --add-drop-table
+```
+
+---
+
+## Migrations - Importing your database
+
+```bash
+# Reset database
+$ wp db reset --yes
+
+# Import database from .sql file
+$ wp db import ./mysite20200419.sql
+
+# Search for instances of production URL
+$ wp db search "https://production-site.com"
+
+# Replace all production URLs with local URL
+$ wp search-replace "https://production-site.com" "https://dev-site.test"
+
+# Search again to confirm all production URLs are gone
+$ wp db search "https://production-site.com"
+```
+
+---
+
+## Migrations - Exporting your database
+
+```bash
+$ wp db export --add-drop-table
+$ wp db export --add-drop-table --file=mysite20200419.sql
+$ $ wp db export --tables=wp_options,wp_users --add-drop-table
+```
 
 ---
 
@@ -175,3 +212,15 @@ $ wp maintenance-mode is-active
 ---
 
 ## Cleanup
+
+Reset database to fresh installation
+
+```bash
+$ wp db reset --yes
+```
+
+Drop database
+
+```bash
+$ wp db drop
+```
